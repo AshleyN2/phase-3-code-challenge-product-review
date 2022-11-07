@@ -23,4 +23,10 @@ puts "Creating reviews..."
 # *****************************************************************
 # Create Reviews Here
 
+Review.create(user_id: user1.id, product_id: product1.id, comment: "As described in the picture", rating: 8)
+Review.create(user_id: user2.id, product_id: product2.id, comment: "Not good to write on", rating: 2)
+Review.create(user_id: user3.id, product_id: product3.id, comment: "Very functional", rating: 7)
+Review.create(user_id: user4.id, product_id: product4.id, comment: "Would recommend", rating: 9)
+Review.create(user_id: user5.id, product_id: product5.id, comment: "Disappointed", rating: 1)
+
 puts "Seeding done!"
